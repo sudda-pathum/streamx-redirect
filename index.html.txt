@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamX - අපි අලුත් වුණා!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b0f19;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #e50914; /* Netflix Red style for streaming vibe */
+        }
+        h1 span {
+            color: #ffffff;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #cccccc;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffffff;
+            background: linear-gradient(135deg, #e50914 0%, #9b050c 100%);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(229, 9, 20, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(229, 9, 20, 0.6);
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Stream<span>X</span></h1>
+        <p>ඔන්න අපි ඔයාලා වෙනුවෙන්ම තවත් සුපිරි ෆීචර්ස් ගොඩක් එක්ක, අපේ පරණ වෙබ් අඩවිය සම්පූර්ණයෙන්ම අලුත් මුහුණුවරකින් <b>StreamX.lk</b> නමින් ආරම්භ කළා!</p>
+        <p>දැන් ඉඳන් ඔයාලට අලුත්ම චිත්‍රපට සහ ටීවී සීරීස් ඔක්කොම සිංහල උපසිරැසි එක්ක ඉහළම කොලිටියෙන් අපේ අලුත් සයිට් එකෙන් නරඹන්න පුළුවන්.</p>
+        
+        <a href="https://streamx.lk" class="btn">අලුත් සයිට් එකට යන්න 🚀</a>
+        
+        <div class="footer">
+            © 2026 StreamX Team. All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+</html>
